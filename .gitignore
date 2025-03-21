@@ -1,0 +1,50 @@
+# Compiled object files, binaries, and libraries
+*.o
+*.a
+*.so
+*.exe
+*.out
+*.dll
+*.dylib
+
+# Debug files
+*.dSYM/
+*.gcda
+*.gcno
+*.gcov
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.code-workspace
+*.swp
+*~
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Make and CMake files
+Makefile
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+
+# Dependency files
+.deps/
+*.d
+
+# Build directories
+build/
+dist/
+
+# Coverage and profiling
+coverage/
+*.gcda
+*.gcno
+*.gcov
+
+# Generated files
+tags
+*.tag
