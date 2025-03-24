@@ -48,7 +48,7 @@ char* longestPalindrome(char* s) {
 
 int main(int argc, char const *argv[])
 {
-  char * test = "cbbd ";
+  char * test = "cbbd";
 
   printf("RESULT %s \n" , longestPalindrome(test));
   
