@@ -24,17 +24,18 @@ char * intToRoman(int num) {
     return "I";
   }
 
-  int values[] = { 1000, 900, 500, 400, 100, 90, 40, 10, 9, 5, 4, 1 };
+  int values[] = { 1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1 };
   
   char * symbols[] = { "M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I" };
 
-  char result[20];
+  static char result[20];
 
+  result[0] = '\0';
 
   int i = 0;
 
-  while(num > 0) {
-    while(num > values[i]) {
+  while(num > 0) { 
+    while(num >= values[i]) {
       num -= values[i];
 
       strcat(result, symbols[i]);
@@ -47,5 +48,7 @@ char * intToRoman(int num) {
 
 int main(int argc, char const *argv[])
 {  
+  printf("Result %s", intToRoman(5));
+
   return 0;
 }
