@@ -5,23 +5,24 @@ import java.util.Set;
 public class LongestSubstringWithoutRepeatingChars3 {
   
   public int lengthOfLongestSubstring(String s) {
-    int maxSoFar = 0;
     Set<Character> set = new HashSet<>();  
-    
-    int counting = 0;
+    int maxSoFar = 0;
+    int startWindow = 0, endWindow = 0;
 
-    for (int i = 0; i < s.length(); i++) {
-      char current = s.charAt(i);
+    while (endWindow < s.length()) {
+      char currentLetter = s.charAt(endWindow);
 
-      if(!set.contains(current)) {
-        set.add(current);
-        counting++;
-        maxSoFar = Math.max(counting, maxSoFar);
-      } else {
-        counting = 0;
+      while (set.contains(currentLetter)) {
+        set.remove(s.charAt(startWindow));
+        startWindow++;
       }
-    }
 
+      set.add(currentLetter);
+      endWindow++;
+
+      maxSoFar = Math.max(maxSoFar, endWindow - startWindow);
+    }
+    
     return maxSoFar;
   }
 
