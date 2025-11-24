@@ -1,4 +1,4 @@
-public class ListNode {
+qpublic class ListNode {
     int val;
     ListNode next;
     ListNode() {}
