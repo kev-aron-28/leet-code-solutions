@@ -14,8 +14,9 @@ public class LongestRepeatingCharacterReplacement {
             count.put(c, count.getOrDefault(c, 0) + 1);
 
             maxFrequency = Math.max(maxFrequency, count.get(c));
+            int currentWindowSize = (rigth - left + 1);
 
-            while((rigth - left + 1) - maxFrequency > k) {
+            while(currentWindowSize - maxFrequency > k) {
                 count.put(s.charAt(left), count.get(s.charAt(left)) - 1);
                 left++;
             }
