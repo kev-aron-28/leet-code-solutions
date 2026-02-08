@@ -27,6 +27,28 @@ public class FruitIntoBaskets {
         return max;
     }
     
+    public double maximumAverageSubArray(int nums[], int k) {
+        int windowSum = 0;
+
+        int right;
+
+        for(right = 0; right < k; right++) {
+            windowSum += nums[right];
+        }
+
+        int maxSum = windowSum;
+
+        while(right < nums.length) {
+            windowSum += nums[right] - nums[right - k];
+
+            maxSum = Math.max(windowSum, maxSum);
+
+            right++;
+        }
+
+        return (double)maxSum / k;
+    }
+
     public static void main(String[] args) {
         System.out.println(longestSubarrayWithAtMost2DistinctElements(new int[]{1,2,3,2,2}));
     }
