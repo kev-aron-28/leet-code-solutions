@@ -229,7 +229,7 @@ Patterns
 1D DP
 2D DP
 Knapsack-style
-Problems (20–30) 🔥
+Problems (20–30) 
 Climbing Stairs
 House Robber I & II
 Coin Change
@@ -243,3 +243,4 @@ Word Break
 Maximum Product Subarray
 Burst Balloons
 Palindrome Substrings
+ 
