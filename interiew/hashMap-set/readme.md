@@ -16,28 +16,22 @@ Minimum Window Substring -
 Longest Substring with At Most K Distinct Characters - 
 Replace the Substring for Balanced String  -
 Substring with Concatenation of All Words - 
-Sliding Window Maximum (mezcla con deque)
+Sliding Window Maximum (mezcla con deque) - 
 
 # Frequency count / anagrams
-Valid Anagram
-Ransom Note
-First Unique Character in a String
-Valid Anagram
-Ransom Note
-First Unique Character in a String
-Reorganize String
-Minimum Deletions to Make Character Frequencies Unique
+Valid Anagram -
+Ransom Note - 
+First Unique Character in a String - 
+Reorganize String - 
+Minimum Deletions to Make Character Frequencies Unique - 
 Palindrome Permutation II
 
 # Prefix sum + hashmap
-Subarray Sum Equals K
-Continuous Subarray Sum
-Maximum Size Subarray Sum Equals K
-Contiguous Array
-Binary Subarrays With Sum
-Maximum Size Subarray Sum Equals K
-Contiguous Array
-Binary Subarrays With Sum
+Subarray Sum Equals K - 
+Continuous Subarray Sum -
+Maximum Size Subarray Sum Equals K - 
+Contiguous Array - 
+Binary Subarrays With Sum - 
 
 # Hashset ()
 Contains Duplicate
