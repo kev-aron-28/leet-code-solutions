@@ -23,20 +23,14 @@ Contains Duplicate
 Range Sum Query
 Subarray Sum Equals K
 Continuous Subarray Sum
-Remove Element
+Remove Elements
 Move Zeroes
 Rotate Array
 Remove Duplicates
-Longest Substring Without Repeating Characters - 
-Maximum Average Subarray -
-Maximum Sum Subarray of Size K -
-Diet Plan Performance -
-Permutation in String -
-Fruit Into Baskets - 
-Longest Repeating Character Replacement -
-Substrings of Size K with K Distinct Characters -
-Count Number of Nice Subarrays - 
-Minimum Window Substring - 
-Longest Substring with At Most K Distinct Characters - 
-Replace the Substring for Balanced String  -
-Substring with Concatenation of All Words - 
+Valid Anagram - 
+Ransom Note - 
+First Unique Character in a String - 
+Valid Anagram - 
+First Unique Character in a String - 
+Reorganize String - 
+Minimum Deletions to Make Character Frequencies Unique - 
