@@ -1,21 +1,21 @@
 1. Recorridos (Traversals) – EL patrón más importante
 
-Binary Tree Inorder Traversal
+Binary Tree Inorder Traversal - 
 
-Binary Tree Preorder Traversal
+Binary Tree Preorder Traversal - 
 
-Binary Tree Postorder Traversal
+Binary Tree Postorder Traversal - 
 
-Binary Tree Level Order Traversal
+Binary Tree Level Order Traversal - 
 
-Binary Tree Level Order Traversal II
+Binary Tree Level Order Traversal II - 
 
-Binary Tree Zigzag Level Order Traversal
+Binary Tree Zigzag Level Order Traversal - 
 
 
 2. Propiedades básicas del árbol
 
-Maximum Depth of Binary Tree
+Maximum Depth of Binary Tree - 
 
 Minimum Depth of Binary Tree
 
