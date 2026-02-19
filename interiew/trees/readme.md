@@ -61,26 +61,77 @@ Eso es BFS (Breadth First Search).
 Y BFS usa una cola (Queue).
 
 # Que es Depth?
-En un árbol binario, depth puede significar dos cosas dependiendo del contexto:
-
-1. Cuántos niveles hay desde la raíz hasta ese nodo.
-2. Maximum Depth del árbol
-
-Depth de un nodo: 
-Número de aristas (edges) desde la raíz hasta ese nodo.
-
-        A
+Es qué tan abajo está un nodo desde la raíz.
+        1
        / \
-      B   C
+      2   3
      /
-    D
+    4
+¿Cuántos pasos bajé desde arriba hasta llegar aquí?
+Nodo 1 → profundidad 1
+Nodo 2 → profundidad 2
+Nodo 4 → profundidad 3
 
-Si contamos aristas:
 
-depth(A) = 0
+# Altura (Height)
+Es qué tan alto es el árbol desde ese nodo hacia abajo.
 
-depth(B) = 1
 
-depth(D) = 2
 
-Se mide desde arriba hacia abajo.
+# LEAF o hoja
+ES un nodo que o tiene hijos left == null y right == null
+
+# TIpos de arbol binario
+
+## Full Binary Tree (Árbol Binario Lleno)
+No puede tener solo un hijo. O tiene los dos o ninguno
+
+      1
+     / \
+    2   3
+   / \
+  4   5
+
+## Complete binary tree
+- Todos los niveles están llenos
+- Excepto posiblemente el último
+- Y el último se llena de izquierda a derecha
+
+        1
+       / \
+      2   3
+     / \  /
+    4  5 6
+
+Esto no es:
+        1
+       / \
+      2   3
+       \ 
+        5
+
+Porque hay un hueco a la izquierda
+
+## Perfect binary tree
+Todos los niveles están completamente llenos
+Todas las hojas están al mismo nivel
+
+Número de nodos = 2^h - 1
+
+## Balanced Binary Tree
+| altura izquierda - altura derecha | <= 1
+
+No necesita estar completamente lleno.
+
+## Binary Search Tree (BST)
+left < root < right
+
+| Tipo       | Regla clave                  |
+| ---------- | ---------------------------- |
+| Full       | 0 o 2 hijos                  |
+| Complete   | Lleno de izquierda a derecha |
+| Perfect    | Todos los niveles llenos     |
+| Balanced   | Alturas difieren máximo 1    |
+| Degenerate | Como linked list             |
+| Skewed     | Todo hacia un lado           |
+| BST        | left < root < right          |

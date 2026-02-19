@@ -17,9 +17,9 @@ Binary Tree Zigzag Level Order Traversal -
 
 Maximum Depth of Binary Tree - 
 
-Minimum Depth of Binary Tree
+Minimum Depth of Binary Tree -
 
-Balanced Binary Tree
+Balanced Binary Tree - 
 
 Diameter of Binary Tree
 
