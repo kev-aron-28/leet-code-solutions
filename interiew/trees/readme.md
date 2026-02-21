@@ -110,6 +110,8 @@ Esto no es:
 
 Porque hay un hueco a la izquierda
 
+La altura es h aprox log(n)
+
 ## Perfect binary tree
 Todos los niveles están completamente llenos
 Todas las hojas están al mismo nivel
