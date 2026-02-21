@@ -76,8 +76,6 @@ Nodo 4 → profundidad 3
 # Altura (Height)
 Es qué tan alto es el árbol desde ese nodo hacia abajo.
 
-
-
 # LEAF o hoja
 ES un nodo que o tiene hijos left == null y right == null
 
@@ -135,3 +133,8 @@ left < root < right
 | Degenerate | Como linked list             |
 | Skewed     | Todo hacia un lado           |
 | BST        | left < root < right          |
+
+
+# Diametro
+El número máximo de aristas entre dos nodos cualquiera del árbol.
+

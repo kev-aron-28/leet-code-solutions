@@ -21,7 +21,7 @@ Minimum Depth of Binary Tree -
 
 Balanced Binary Tree - 
 
-Diameter of Binary Tree
+Diameter of Binary Tree - 
 
 Count Complete Tree Nodes
 

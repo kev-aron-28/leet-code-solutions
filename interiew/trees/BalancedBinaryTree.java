@@ -5,6 +5,7 @@ public class BalancedBinaryTree {
         return height(root) != -1;
     }
 
+    // Post order
     public int height(TreeNode node) {
         if(node == null) return 0;
 
