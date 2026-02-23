@@ -30,10 +30,10 @@ public class MinimumWindowSubstring {
             }
 
             while(foundUntilNow == required) {
-                min = Math.min(min, right - left + 1);
-
-                char leftChar = s.charAt(left);
+                if(right - left + 1 < min ){
+                    min = right - left + 1;
                 
+                }
                 window.put(leftChar, window.get(leftChar) - 1);
                 
                 if (freq.containsKey(leftChar) && window.get(leftChar) < freq.get(leftChar)) foundUntilNow--;
