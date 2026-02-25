@@ -31,6 +31,8 @@ public class CountNumberOfNiceSubArrays {
         return count(nums, k) - count(nums, k - 1);
     }
     
+    
+
     public static void main(String[] args) {
         
     }

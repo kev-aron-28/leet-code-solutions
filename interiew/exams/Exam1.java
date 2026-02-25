@@ -8,6 +8,7 @@ import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
+import java.util.PriorityQueue;
 import java.util.Queue;
 
 import trees.TreeNode;
@@ -407,4 +408,154 @@ public class Exam1 {
         return pathSum(node.left, remaining) || pathSum(node.right, remaining);
     }
 
+    public int containerWithMostWater(int height[]) {
+
+        int left = 0;
+        int right = height.length - 1;
+        int max = 0;
+
+        while (left < right) { 
+            int leftH = height[left];
+            int rightH = height[right];
+
+            int h = Math.min(leftH, rightH);
+
+            int base = right - left;
+
+            int area = h * base;
+
+            max = Math.max(max, area);
+
+            if(leftH < rightH) {
+                left++;
+            } else {
+                right--;
+            }
+        }
+
+        return max;
+    }
+
+    public int countNumberOfNiceSubArrays(int nums[], int k) {
+        return helper(nums, k) - helper(nums, k - 1);
+    }
+
+    private int helper (int nums[], int k) {
+        int left = 0;
+
+        int oddCount = 0;
+
+        int result = 0;
+
+        for(int right = 0; right < nums.length; right++) {
+            int rightNum = nums[right];
+
+            if(rightNum % 2 != 0) oddCount++;
+            
+            while (oddCount > k) { 
+                int leftNum = nums[left];
+                
+                if(leftNum % 2 != 0) oddCount--;
+                
+                left++;
+            }
+
+            result += right - left + 1;
+        }
+
+        return result;
+    }
+
+    public String reorganizeString (String s) {
+        int freq[] = new int[26];
+        
+        for(char c : s.toCharArray()) {
+            freq[c - 'a']++;
+        }
+
+        PriorityQueue<int[]> maxHeap = new PriorityQueue<>((a,b) -> b[1] - a[1]);
+
+        for(int i = 0; i < 26; i++) {
+            if(freq[i] > 0) maxHeap.add(new int[] { i, freq[i] });
+        }
+
+        int prev[] = null;
+
+        StringBuilder result = new StringBuilder();
+
+        while (!maxHeap.isEmpty()) { 
+            int current[] = maxHeap.poll();
+
+            result.append((char)(current[0] + 'a'));
+
+            current[1]--;
+
+            if (prev != null && prev[1] > 0) {
+                maxHeap.add(prev);
+            }
+
+            prev = current;
+        }
+
+        return result.length() == s.length() ? result.toString() : "";
+    }
+
+    public int contiguousSubarray(int nums[]) {
+
+        HashMap<Integer,Integer> map = new HashMap<>();
+
+        map.put(0, -1);
+
+        int prefixSum = 0;
+
+        int max = 0;
+
+        for(int i = 0; i < nums.length; i++) {
+            prefixSum += (nums[i] == 0 ? 1 : -1);
+
+            if(map.containsKey(prefixSum)) {
+                max = Math.max(max, i - map.get(prefixSum));
+            } else {
+                map.put(prefixSum, i);
+            }
+        }
+
+        return max;
+    }
+
+
+    public int substringsOfSizeKWithKDistinctCharacters(String s, int k) {
+        int freq[] = new int[26];
+
+        int left = 0;
+
+        int result = 0;
+
+        for(int right = 0; right < s.length(); right++) {
+            char rightChar = s.charAt(right);
+
+            freq[rightChar - 'a']++;
+
+            while (right - left + 1 > k) { 
+                char leftChar = s.charAt(left);
+
+                freq[leftChar - 'a']--;
+
+                left++;
+            }
+
+            if(valid(freq, k)) result++;
+        }
+
+        return result;
+    }
+
+    public boolean valid(int freq[], int k) {
+        int count = 0;
+        for(int i = 0; i < 26; i++) {
+            if(freq[i] > 0) count++;
+        }
+
+        return count == k;
+    }
 }
