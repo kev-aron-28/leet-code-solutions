@@ -2,14 +2,14 @@
 - Reverse Linked List - 
 - Middle of the Linked List - 
 - Remove Linked List Elements - 
-- Remove Duplicates from Sorted List
-- Delete Node in a Linked List
-- Convert Binary Number in Linked List to Integer
-- Merge Two Sorted Lists
+- Remove Duplicates from Sorted List - 
+- Delete Node in a Linked List -
+- Convert Binary Number in Linked List to Integer -
+- Merge Two Sorted Lists -
 
 2. Two Pointers (Fast & Slow)
-Linked List Cycle
-- Linked List Cycle II
+- Linked List Cycle -
+- Linked List Cycle II -  
 - Middle of the Linked List
 - Remove Nth Node From End of List
 - Intersection of Two Linked Lists
