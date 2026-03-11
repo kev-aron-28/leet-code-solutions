@@ -10,11 +10,11 @@
 2. Two Pointers (Fast & Slow)
 - Linked List Cycle -
 - Linked List Cycle II -  
-- Middle of the Linked List
-- Remove Nth Node From End of List
-- Intersection of Two Linked Lists
-- Palindrome Linked List
-- Delete the Middle Node of a Linked List
+- Middle of the Linked List -
+- Remove Nth Node From End of List -
+- Intersection of Two Linked Lists -
+- Palindrome Linked List - 
+- Delete the Middle Node of a Linked List -
 
 3. Dummy Node Pattern
 - Remove Nth Node From End
@@ -29,7 +29,6 @@
 - Reverse Linked List
 - Reverse Linked List II
 - Reverse Nodes in k-Group
-- Palindrome Linked List
 - Reorder List
 - Reverse Nodes in Even Length Groups
 - Maximum Twin Sum of a Linked List
