@@ -1,25 +1,28 @@
 package random;
 
 import java.util.ArrayList;
+import java.util.LinkedHashSet;
 import java.util.List;
+import java.util.Set;
 
 public class ClimbingtheLeaderboard {
     public static List<Integer> climbingLeaderboard(List<Integer> ranked, List<Integer> player) {
-        List<Integer> result = new ArrayList<>();
+        Set<Integer> rank = new LinkedHashSet<>();
 
-        int currentRank = 1;
-
-        for(int i = 1; i < ranked.size(); i++) {
-            if(!ranked.get(i).equals(ranked.get(i - 1))) currentRank++; 
+        for(int score : ranked) {
+            rank.add(score);
         }
 
-        
+        List<Integer> noDuplicates = new ArrayList<>(rank);
+        List<Integer> result = new ArrayList<>();
+        int j = noDuplicates.size() - 1;
         for(int number : player) {
-            int j = ranked.size() - 1;
 
-            while(j >= 0 && ) {
-
+            while(j >= 0 && number >= noDuplicates.get(j) ) {
+                j--;
             }
+
+            result.add(j + 2);
         }
 
         return result;

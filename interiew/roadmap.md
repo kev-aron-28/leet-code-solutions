@@ -1,6 +1,6 @@
 # ROADMAP
 
-1. Arrays & Strings (Warm-up but essential)
+1. Arrays & Strings (Warm-up but essential) -
 Patterns
 Iteration
 Two pointers (basic)
@@ -22,7 +22,7 @@ Squares of a Sorted Array
 Find Pivot Index
 Missing Number
 
-2. 2. Hash Map / Hash Set (Frequency & Lookup)
+2. 2. Hash Map / Hash Set (Frequency & Lookup) - 
 - Patterns
 Frequency counting
 Seen-before logic
@@ -66,7 +66,7 @@ Squares of a Sorted Array
 Minimum Size Subarray Sum
 Partition Labels
 
-4. Sliding Window (ABSOLUTELY CRITICAL)
+4. Sliding Window (ABSOLUTELY CRITICAL) - 
 Patterns
 Fixed window
 Variable window
@@ -92,7 +92,7 @@ Max Vowels in a Substring
 Defuse the Bomb
 Grumpy Bookstore Owner
 
-5. Prefix Sum (Underrated but deadly)
+5. Prefix Sum (Underrated but deadly) -
 Patterns
 Running sum
 Prefix + hash map
@@ -132,7 +132,7 @@ Asteroid Collision
 Simplify Path
 Online Stock Span
 
-7. Linked List
+7. Linked List - 
 Patterns
 Dummy node
 Two pointers
@@ -209,7 +209,7 @@ Median of Two Sorted Arrays
 Search a 2D Matrix
 Time Based Key-Value Store
 
-11. Backtracking
+11. Backtracking - 
 Patterns
 Choose → Explore → Unchoose
 Problems (15–20)
@@ -222,7 +222,6 @@ Letter Combinations of a Phone Number
 Palindrome Partitioning
 Word Search
 N-Queens
-
 
 12. Dynamic Programming (Last)
 Patterns
