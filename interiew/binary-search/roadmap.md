@@ -6,9 +6,9 @@ Search Insert Position -
 Guess Number Higher or Lower -
 
 2. First / Last Occurrence (Lower Bound)
-Find First and Last Position of Element in Sorted Array
-First Bad Version
-Find Smallest Letter Greater Than Target
+Find First and Last Position of Element in Sorted Array -
+First Bad Version -
+Find Smallest Letter Greater Than Target - Primero que sea mas grande
 
 3. Binary Search on Answer
 Koko Eating Bananas
