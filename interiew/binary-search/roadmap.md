@@ -11,9 +11,9 @@ First Bad Version -
 Find Smallest Letter Greater Than Target - Primero que sea mas grande
 
 3. Binary Search on Answer
-Koko Eating Bananas
-Capacity To Ship Packages Within D Days
-Minimum Number of Days to Make m Bouquets
+Koko Eating Bananas -
+Capacity To Ship Packages Within D Days -
+Minimum Number of Days to Make m Bouquets -
 Split Array Largest Sum
 
 4. Rotated Sorted Array
