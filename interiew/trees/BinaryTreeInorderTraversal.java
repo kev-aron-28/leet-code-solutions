@@ -1,11 +1,8 @@
 package trees;
-//
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
-
-
 
 public class BinaryTreeInorderTraversal {
     public void inorder(TreeNode node, List<Integer> result) {
