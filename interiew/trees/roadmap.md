@@ -47,7 +47,7 @@ Invert Binary Tree -
 
 Same Tree - 
 
-Symmetric Tree
+Symmetric Tree -
 
 Construct Binary Tree from Preorder and Inorder Traversal
 

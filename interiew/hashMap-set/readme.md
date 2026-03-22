@@ -1,6 +1,3 @@
-
-
-
 ## Sliding window + hashmap
 Longest Substring Without Repeating Characters - 
 Maximum Average Subarray -
