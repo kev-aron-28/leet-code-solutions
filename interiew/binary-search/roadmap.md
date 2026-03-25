@@ -17,9 +17,9 @@ Minimum Number of Days to Make m Bouquets -
 Split Array Largest Sum -
 
 4. Rotated Sorted Array
-Search in Rotated Sorted Array
-Search in Rotated Sorted Array II
-Find Minimum in Rotated Sorted Array
+Search in Rotated Sorted Array -
+Search in Rotated Sorted Array II -
+Find Minimum in Rotated Sorted Array -
 
 5. Peak Element / Mountain Array
 Find Peak Element
