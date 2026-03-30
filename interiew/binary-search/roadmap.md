@@ -22,9 +22,9 @@ Search in Rotated Sorted Array II -
 Find Minimum in Rotated Sorted Array -
 
 5. Peak Element / Mountain Array
-Find Peak Element
-Peak Index in a Mountain Array
-Find in Mountain Array
+Find Peak Element -
+Peak Index in a Mountain Array -
+Find in Mountain Array -
 
 6. Binary Search on Monotonic Function
 Sqrt(x)
