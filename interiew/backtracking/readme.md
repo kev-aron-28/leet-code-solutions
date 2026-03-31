@@ -12,10 +12,10 @@ Problems:
 - Subsets II -
 - Combinations -
 - Combination Sum -
-- Combination Sum II
-- Combination Sum III
-- Letter Combinations of Phone Number
-- Generate Parentheses
+- Combination Sum II -
+- Combination Sum III -
+- Letter Combinations of Phone Number -
+- Generate Parentheses -
 - Restore IP Addresses
 - Letter Case Permutation
 - Palindrome Partitioning
