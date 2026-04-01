@@ -16,8 +16,8 @@ Problems:
 - Combination Sum III -
 - Letter Combinations of Phone Number -
 - Generate Parentheses -
-- Restore IP Addresses
-- Letter Case Permutation
+- Restore IP Addresses -
+- Letter Case Permutation -
 - Palindrome Partitioning
 - Split String Into Max Unique Substrings
 - Partition to K Equal Sum Subsets
