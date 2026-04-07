@@ -18,8 +18,8 @@ Problems:
 - Generate Parentheses -
 - Restore IP Addresses -
 - Letter Case Permutation -
-- Palindrome Partitioning
-- Split String Into Max Unique Substrings
+- Palindrome Partitioning -
+- Split String Into Max Unique Substrings -
 - Partition to K Equal Sum Subsets
 
 2. Permutations
@@ -29,7 +29,7 @@ Pattern:
 - use visited[] or swapping
 
 Problems:
-- Permutations
+- Permutations -
 - Permutations II
 - Next Permutation (related idea)
 - Sequence Reconstruction
