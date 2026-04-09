@@ -30,7 +30,7 @@ Pattern:
 
 Problems:
 - Permutations -
-- Permutations II
+- Permutations II -
 - Next Permutation (related idea)
 - Sequence Reconstruction
 - Letter Tile Possibilities
