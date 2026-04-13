@@ -31,9 +31,9 @@ Pattern:
 Problems:
 - Permutations -
 - Permutations II -
-- Next Permutation (related idea)
+- Next Permutation -
 - Sequence Reconstruction
-- Letter Tile Possibilities
+- Letter Tile Possibilities -
 - All Paths From Source to Target
 - Beautiful Arrangement
 - Permutation Sequence
