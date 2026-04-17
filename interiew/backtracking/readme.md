@@ -34,9 +34,9 @@ Problems:
 - Next Permutation -
 - Sequence Reconstruction
 - Letter Tile Possibilities -
-- All Paths From Source to Target
-- Beautiful Arrangement
-- Permutation Sequence
+- All Paths From Source to Target -
+- Beautiful Arrangement -
+- Permutation Sequence -
 - Reconstruct Itinerary
 - Generate All Binary Strings
 - Sudoku Solver
