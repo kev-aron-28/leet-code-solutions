@@ -25,7 +25,6 @@ public class LetterTilesPossibilities {
             count += 1;
             count += dfs(letters, used);
 
-
             used[i] = false;
         }
 
