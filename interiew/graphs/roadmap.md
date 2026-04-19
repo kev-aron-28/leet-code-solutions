@@ -3,10 +3,10 @@
 1. Graph representation
 
 - Clone Graph - 
-- Evaluate Division
-- Reorder Routes to Make All Paths Lead to Zero
-- Is Graph Bipartite?
-- Possible Bipartition
+- Evaluate Division -
+- Reorder Routes to Make All Paths Lead to Zero -
+- Is Graph Bipartite? -
+- Possible Bipartition -
 - Find the Town Judge
 
 2. BFS
