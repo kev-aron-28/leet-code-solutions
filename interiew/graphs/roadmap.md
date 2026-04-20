@@ -7,10 +7,10 @@
 - Reorder Routes to Make All Paths Lead to Zero -
 - Is Graph Bipartite? -
 - Possible Bipartition -
-- Find the Town Judge
+- Find the Town Judge -
 
 2. BFS
-- Word Ladder
+- Word Ladder - 
 - Rotting Oranges
 - Shortest Path in Binary Matrix
 - Open the Lock
