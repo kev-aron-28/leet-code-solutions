@@ -17,11 +17,11 @@
 - Delete the Middle Node of a Linked List -
 
 3. Dummy Node Pattern
-- Remove Nth Node From End
-- Merge Two Sorted Lists
-- Swap Nodes in Pairs
-- Partition List
-- Remove Duplicates from Sorted List II
+- Remove Nth Node From End -
+- Merge Two Sorted Lists - 
+- Swap Nodes in Pairs -
+- Partition List -
+- Remove Duplicates from Sorted List II -
 - Reverse Linked List II
 - Delete Nodes From Linked List Present in Array
 

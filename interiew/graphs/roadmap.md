@@ -11,8 +11,8 @@
 
 2. BFS
 - Word Ladder - 
-- Rotting Oranges
-- Shortest Path in Binary Matrix
+- Rotting Oranges - 
+- Shortest Path in Binary Matrix -
 - Open the Lock
 - Minimum Genetic Mutation
 - Bus Routes
