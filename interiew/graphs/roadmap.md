@@ -15,9 +15,9 @@
 - Shortest Path in Binary Matrix -
 - Open the Lock -
 - Minimum Genetic Mutation - 
-- Bus Routes
-- As Far from Land as Possible
-- Nearest Exit from Entrance in Maze
+- Bus Routes -
+- As Far from Land as Possible - 
+- Nearest Exit from Entrance in Maze -
 
 3. DFS (Traversal / Exploration)
 - Number of Islands
