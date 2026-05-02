@@ -13,8 +13,8 @@
 - Word Ladder - 
 - Rotting Oranges - 
 - Shortest Path in Binary Matrix -
-- Open the Lock
-- Minimum Genetic Mutation
+- Open the Lock -
+- Minimum Genetic Mutation - 
 - Bus Routes
 - As Far from Land as Possible
 - Nearest Exit from Entrance in Maze

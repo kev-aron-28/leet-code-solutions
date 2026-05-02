@@ -18,7 +18,6 @@ e: edges (connections)
 | Connected    | all nodes reachable |
 | Disconnected | multiple components |
 
-
 # Representation
 
 A. Adjacency list

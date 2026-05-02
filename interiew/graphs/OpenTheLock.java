@@ -9,7 +9,7 @@ import java.util.Queue;
 import java.util.Set;
 
 public class OpenTheLock {
-    publict int solution(String[] deadEnds, String target) {
+    public int solution(String[] deadEnds, String target) {
         Set<String> dead = new HashSet<>(Arrays.asList(deadEnds));
 
         if(dead.contains("0000")) return -1;
@@ -47,13 +47,16 @@ public class OpenTheLock {
     private List<String> getNei(String current) {
         List<String> result = new ArrayList<>();
 
-
-
         for(int i = 0; i < 4; i++) {
-            char arr[] = current.toCharArray();
+            char[] arr = current.toCharArray();
 
+        // subir
             arr[i] = (char)((arr[i] - '0' + 1) % 10 + '0');
+            result.add(new String(arr));
 
+            // bajar
+            arr = current.toCharArray();
+            arr[i] = (char)((arr[i] - '0' + 9) % 10 + '0');
             result.add(new String(arr));
 
         }
