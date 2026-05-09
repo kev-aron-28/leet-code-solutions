@@ -19,7 +19,6 @@ public class RestoreIpAddresses {
                 result.add(String.join(".", path));
             }
 
-
             return;
         }
 

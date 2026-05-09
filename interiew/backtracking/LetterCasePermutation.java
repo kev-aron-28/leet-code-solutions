@@ -7,7 +7,6 @@ public class LetterCasePermutation {
     public List<String> solution(String s) {
         List<String> result = new ArrayList<>();
         
-
         dfs(0, s, new StringBuilder(), result);
 
         return result;
