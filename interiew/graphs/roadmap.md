@@ -20,8 +20,8 @@
 - Nearest Exit from Entrance in Maze -
 
 3. DFS (Traversal / Exploration)
-- Number of Islands
-- Keys and Rooms
+- Number of Islands -
+- Keys and Rooms -
 - Pacific Atlantic Water Flow
 - Max Area of Island
 - Surrounded Regions
