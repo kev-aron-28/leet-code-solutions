@@ -18,7 +18,6 @@ public class ProductofArrayExceptSelf {
             suffix *= nums[i];
         }
 
-
         return result;
     }
 }
