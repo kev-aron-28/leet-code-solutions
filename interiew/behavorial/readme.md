@@ -100,11 +100,6 @@ One challenge was designing a platform that continued to grow while remaining ma
 As more modules were added, I had to rethink parts of the architecture, introduce better boundaries, 
 and make decisions that balanced immediate business needs with long-term scalability.
 
-# Tell me about a difficult technical challenge.
-One challenge was designing a platform that continued to grow while remaining maintainable. 
-As more modules were added, I had to rethink parts of the architecture, introduce better boundaries, 
-and make decisions that balanced immediate business needs with long-term scalability.
-
 # Tell me about a mistake you made.
 Early in the project, I created some components that became more tightly coupled than they should have been. 
 As the platform grew, that made changes more difficult. I learned the importance of clear boundaries and investing in architecture early when building systems expected to evolve.

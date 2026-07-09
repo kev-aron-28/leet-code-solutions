@@ -16,13 +16,4 @@ public class MoveZeroes {
             slow++;
         }
     } 
-    public static void main(String[] args) {
-        int array[] = { 0, 0, 3,0, 1, 2  };
-
-        moveZero(array);
-
-        for(int num : array) {
-            System.out.println(num);
-        }
-    }
 }
