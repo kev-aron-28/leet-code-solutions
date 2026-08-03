@@ -7,7 +7,7 @@ public class IntersectionOfTwoLinkedList {
         ListNode a = headA;
         ListNode b = headB;
 
-        while (a != b) { 
+        while(a != b) {
             a = (a == null) ? headB : a.next;
             b = (b == null) ? headA : b.next;
         }
