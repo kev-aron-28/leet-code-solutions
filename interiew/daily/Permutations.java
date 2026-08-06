@@ -10,17 +10,15 @@ public class Permutations {
         boolean used[] = new boolean[nums.length];
 
 
-        dfs(nums, used, new ArrayList<>(), result);
-
         return result;
     }
 
     private void dfs(int nums[], boolean used[], List<Integer> path, List<List<Integer>> result) {
         if(path.size() == nums.length) {
             result.add(new ArrayList<>(path));
+
             return;
         }
-        
 
         for(int i = 0; i < nums.length; i++) {
             if(used[i]) continue;
