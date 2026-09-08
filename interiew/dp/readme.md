@@ -9,8 +9,8 @@ N-th Tribonacci Number — LC 1137 -
 House Robber — LC 198 -
 
 ### Medium
-House Robber II — LC 213
-Decode Ways — LC 91
+House Robber II — LC 213 -
+Decode Ways — LC 91 - 
 Word Break — LC 139
 Perfect Squares — LC 279
 Integer Break — LC 343

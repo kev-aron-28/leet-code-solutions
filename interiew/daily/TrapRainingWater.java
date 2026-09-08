@@ -2,32 +2,30 @@ package daily;
 
 public class TrapRainingWater {
     public int solution(int height[]) {
-        int leftTallest = 0;
-        int rightTallest = 0;
-
         int left = 0;
         int right = height.length - 1;
 
-        int water = 0;
+        int tallestLeft = 0;
+        int tallestRight = 0;
+
+        int count = 0;
+
         while(left < right) {
-            if(height[left] < height[right]) {
-                if(height[left] > leftTallest) {
-                    leftTallest = height[left];
+            if (height[left] <= height[right]) {
+                if(height[left] >= tallestLeft) {
+                    tallestLeft = height[left];
                 } else {
-                    water += leftTallest - height[left];
+                    count += tallestLeft - height[left];
                 }
-                left++;
-            } else {
-                if(height[right] > rightTallest) {
-                    rightTallest = height[right];
+            }  else {
+                if(height[right] >= tallestRight) {
+                    tallestRight = height[right];
                 } else {
-                    water += rightTallest - height[right];
+                    count += tallestRight - height[right];
                 }
-
-                right--;
             }
-        } 
+        }
 
-        return water;
+        return count;
     }
 }
