@@ -6,11 +6,20 @@ import java.util.Queue;
 
 public class NumberOfStudentsUnableToEatLunch {
     public int solution(int students[], int sandwiches[]) {
-        Queue<Integer> queue = new ArrayDeque<>();
-        Deque<Integer> stack = new ArrayDeque<>();
+        int count[] = new int[2];
 
-        while(!queue.isEmpty()) {
-            
+        for(int s : students) {
+            count[s]++;
         }
+
+        for (int s : sandwiches) {
+            if(count[s] == 0) {
+                break;
+            }
+
+            count[s]--;
+        }
+
+        return count[0] + count[1];
     }
 }
